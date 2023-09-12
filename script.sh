@@ -18,20 +18,30 @@ none='\e[0m'
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
 <h3><font color='red'>
-▬▬▬▬▬▬▬▬✿4▪0▪4✿▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬✿K▪O▪K✿▬▬▬▬▬▬▬▬
 </font></h3>
-<h6><font color='cyan'>
-↤↤↤↤↤ GCP SERVER BY ④ ⍤⃝✿④ ↦↦↦↦↦
+<h6><font color='#FFFFFF'>
+↤↤↤↤↤ GCP SERVER BY KOK834 ↦↦↦↦↦
 </font></h6>
+<h3><font color='yellow'>
+</font></h3>
+<h6><font color='#FFFFFF'>
+↤↤↤↤ https://t.me/KOKHANT834 ↦↦↦↦
+</font></h6>
+<h3><font color='green'>
+</font></h3>
+<h6><font color='#FFFFFF'>
+↤↤↤↤↤↤ အဆင်ပြေနိုင်ကြပါစေ ↦↦↦↦↦
+/font></h6>
 <h3><font color='red'>
-▬▬▬▬▬▬▬▬✿4▪0▪4✿▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬✿8▪3▪4✿▬▬▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+useradd "kok834" --shell=/bin/false -M
+echo "kok84:kok834" | chpasswd
 
 echo ""
 echo "------------------------------------"
-printf "Developed the script by \n"
+printf "Developed the script by \KOK834"
 echo "------------------------------------"
 echo ""
 
